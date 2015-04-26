@@ -17,9 +17,9 @@ var range = function(bottom, top) {
 
 var f, m, n;
 
-f = range(20, 30);
-m = range(5, 15);
-n = range(60, 80);
+f = range(500, 750);
+m = range(200, 400);
+n = range(1000, 1050);
 
 $(document).ready(function(){
 	modNo(f,m,n);
